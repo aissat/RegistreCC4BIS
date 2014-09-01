@@ -48,22 +48,14 @@ namespace RegistreCC4BIS
         }
         private void button1_Click(object sender, EventArgs e)
         {
-
             try
             {
-                /*
-                Cmd = new OleDbCommand("Insert Into Table_Reg Values('" + comboBox1.Text + "', " + Convert.ToInt32(txtNumSection.Text) + ", " + Convert.ToInt32(txtNumIlot.Text) + "," + Convert.ToInt32(txtNvxIlot.Text) + ", " + Convert.ToInt32(txtNumLot.Text) + ",'" + txtProprInscrit.Text + "','" + comboBox2.Text + "'," + Convert.ToInt32(txtNumLivrejuurnal.Text) + ",'" + dateTimePicker1.ToString() + "',,'" + dateTimePicker2.ToString() + "',,'" + dateTimePicker3.ToString() + "',,'" + dateTimePicker4.ToString() + "')", Cn);
-                 Cn.Open();
-                 Cmd.ExecuteNonQuery();
-                 Cn.Close();
-
-                 MessageBox.Show("Added Successfully", "Add", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                 InitInterface();
-                 */
-                //
-                //Cmd = new OleDbCommand("Insert Into Table_Reg (NumOrdre,Commune,NumSection,NumIlot,NvxIlot,NumLot,PropriétaireInscrit,Redacteur,NumLivre,DateEdition,DateRéception,DateApplication,DateRemise) Values(10,'ssat', 2, 30,5, 52,'abdou','google',25,'02/07/1989','2/2/2014','2/3/2014','3/3/2014')", Cn);
-
-                Cmd = new OleDbCommand("Insert Into Table_Reg  Values(0,'ssat', 2, 30,5, 52,'abdou','google',25,'02/07/1989','2/2/2014','2/3/2014','3/3/2014')", Cn);
+                 //Cmd = new OleDbCommand("Insert Into Table_Reg (NumOrdre,Commune,NumSection,NumIlot,NvxIlot,NumLot,PropriétaireInscrit,Redacteur,NumLivre,DateEdition,DateRéception,DateApplication,DateRemise) Values(10,'ssat', 2, 30,5, 52,'abdou','google',25,'02/07/1989','2/2/2014','2/3/2014','3/3/2014')", Cn);
+                //Cmd = new OleDbCommand("Insert Into Table_Reg Values('" + comboBox1.Text + "', " + Convert.ToInt32(txtNumSection.Text) + ", " + Convert.ToInt32(txtNumIlot.Text) + "," + Convert.ToInt32(txtNvxIlot.Text) + ", " + Convert.ToInt32(txtNumLot.Text) + ",'" + txtProprInscrit.Text + "','" + comboBox2.Text + "'," + Convert.ToInt32(txtNumLivrejuurnal.Text) + ",'" + dateTimePicker1.ToString() + "',,'" + dateTimePicker2.ToString() + "',,'" + dateTimePicker3.ToString() + "',,'" + dateTimePicker4.ToString() + "')", Cn);
+                //change param Values(....) Values('" + comboBox1.Text + "', " + Convert.ToInt32(txtNumSection.Text) + ", " + Convert.ToInt32(txtNumIlot.Text) + "," + Convert.ToInt32(txtNvxIlot.Text) + ", " + Convert.ToInt32(txtNumLot.Text) + ",'" + txtProprInscrit.Text + "','" + comboBox2.Text + "'," + Convert.ToInt32(txtNumLivrejuurnal.Text) + ",'" + dateTimePicker1.ToString() + "',,'" + dateTimePicker2.ToString() + "',,'" + dateTimePicker3.ToString() + "',,'" + dateTimePicker4.ToString() + "')", Cn);
+                // this test is done !!!
+                Cmd = new OleDbCommand("Insert Into TableReg (Commune,NumSection,NumIlot,NvxIlot,NumLot,PropriétaireInscrit,Redacteur,NumLivre,DateEdition,DateRéception,DateApplication,DateRemise) Values('ssat', 2, 30,5, 52,'abdou','google',25,'02/07/1989','2/2/2014','2/3/2014','3/3/2014')", Cn);
+                //Cmd = new OleDbCommand("Insert Into Table_Reg  Values('ssat', 2, 30,5, 52,'abdou','google',25,'02/07/1989','2/2/2014','2/3/2014','3/3/2014')", Cn);
                 Cn.Open();
                 Cmd.ExecuteNonQuery();
                 Cn.Close();
