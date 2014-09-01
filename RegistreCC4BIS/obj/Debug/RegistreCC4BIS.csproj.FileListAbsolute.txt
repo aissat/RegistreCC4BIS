@@ -1,0 +1,9 @@
+G:\Project\RegistreCC4BIS\RegistreCC4BIS\bin\Debug\RegistreCC4BIS.exe.config
+G:\Project\RegistreCC4BIS\RegistreCC4BIS\bin\Debug\RegistreCC4BIS.exe
+G:\Project\RegistreCC4BIS\RegistreCC4BIS\bin\Debug\RegistreCC4BIS.pdb
+G:\Project\RegistreCC4BIS\RegistreCC4BIS\obj\Debug\RegistreCC4BIS.csprojResolveAssemblyReference.cache
+G:\Project\RegistreCC4BIS\RegistreCC4BIS\obj\Debug\RegistreCC4BIS.Form1.resources
+G:\Project\RegistreCC4BIS\RegistreCC4BIS\obj\Debug\RegistreCC4BIS.Properties.Resources.resources
+G:\Project\RegistreCC4BIS\RegistreCC4BIS\obj\Debug\RegistreCC4BIS.csproj.GenerateResource.Cache
+G:\Project\RegistreCC4BIS\RegistreCC4BIS\obj\Debug\RegistreCC4BIS.exe
+G:\Project\RegistreCC4BIS\RegistreCC4BIS\obj\Debug\RegistreCC4BIS.pdb
